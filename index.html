@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website- Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37269334dc.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class= "header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Aman</span><br>Raj From India</h1>
+
+        </div>
+
+        </div>
+    </div>
+</div> 
+<!-- ------------about-------------->
+<div id="about">
+    <div class = "container">
+        
+                <h1 class= "sub-title">About Me</h1>
+                <p>My Name is Aman Raj, I belongs to kanpur, currently i peurusing B Tech from Maharana Pratap Engineering College Kanpur,i did my Intermediate and Highschool from Kanpur.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab"id = "skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Website/Web pages</li>
+                        <li><span>Programming Languages</span><br>Python, C, C++, java</li>
+                        <li><span></span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id = "experience">
+                    <ul>
+                        <li><span>01/02/2025 - 31/03/2025</span><br>Compleate intrenship of software engineering on BLUESTOCK.</li>
+                        <li><span>2025</span><br>Software Engineering Job Simulation in Forage.</li>
+                        <li><span>2025</span><br>Selinium WebDriver with Java.</li>
+                        <li><span>2025</span><br>Automating in the Brouser Using JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id= "education">
+                    <ul>
+                        <li><span>2022 - 2026</span><br>B Tech From Maharana Pratap Engineering College Kanpur</li>
+                        <li><span>2021 - 2022</span><br>Intermediate from Maharshi D B L Umari Kanpur<br>Compleate Intermediate from Kanpur and score 77% marks.</li>
+                        <li><span>2019 - 2020</span><br>Highschool from Maharshi D B L Umari Kanpur<br>Compleate Highschool from Kanpur and score 83% marks.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------services-------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class= "sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I am a passionate web designer with a keen eye for detail. I create responsive, user-friendly websites that combine aesthetics with functionality to deliver seamless digital experiences for all users.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Problem solver</h2>
+                <p>I am a skilled programming problem solver, experienced in writing efficient code to tackle complex challenges. I enjoy optimizing algorithms and building smart solutions using logical thinking and precision.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I am an innovative app designer focused on creating intuitive, user-friendly interfaces. I blend creativity with functionality to design engaging mobile app experiences that meet user needs and business goals.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- -----------------portfolio--------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class= "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Online Job Portal Website</h3>
+                    <p>Developed a platform connecting job seekers with employers, enabling job search, resume uploads, and personalized recommendations.Employers can post jobs and manage applications</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Mess Review System</h3>
+                    <p>I created a mess review system using HTML, CSS, JavaScript, and Python. It allows users to submit reviews, rate food quality, and view feedback to improve mess services and transparency.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Resume Builder</h3>
+                    <p>I developed a Content Management System (CMS) that allows users to easily create, manage, and update website content like text, images,and videos without needing coding skills.</p>
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<!-----------------contact---------------->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>amanraj145652@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9026196185</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/AmanRaj474838"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/aman9565raj/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aman-raj-ba1480275/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Aman Raj_Resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form submit-to-google-sheet>
+                    <input type="text" name="Name"placeholder="Your Name" required>
+                    <input type="email" name="email"placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }    
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzR68m2SauPecEzwqAb7R8X3h_HV3CDhY2mO8oAdaVZPryWwqoRs0D2CR45NTCysomS/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                mes.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
